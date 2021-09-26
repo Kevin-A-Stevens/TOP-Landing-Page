@@ -1,3 +1,4 @@
+/* HEADER STYLES */
 .section-header {
   background-color: #1f2937;
   color: #e5e7eb;
@@ -55,4 +56,32 @@
   padding: 10px 30px;
   font-weight: 900;
   border-radius: 10px;
+}
+
+/* HERO STYLES */
+.hero-text {
+  text-align: center;
+  font-size: 30px;
+}
+
+.section-hero-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  border: 3px solid blue;
+  border-radius: 20px;
+}
+
+.items {
+}
+
+.text {
+  width: 140px;
+  text-align: center;
+  padding-top: 5px;
 }
