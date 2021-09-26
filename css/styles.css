@@ -1,0 +1,58 @@
+.section-header {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  padding-bottom: 20px;
+}
+
+.section-nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 700;
+}
+
+.nav-links {
+  padding-top: 20px;
+}
+
+.link {
+  color: #e5e7eb;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header-title {
+  max-width: 400px;
+  font-size: 48px;
+}
+
+.header-img {
+  background-color: #777;
+  width: 400px;
+}
+
+.header-text {
+  max-width: 350px;
+}
+
+.header-placeholder {
+  text-align: center;
+  justify-content: center;
+}
+
+.header-btn {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 10px 30px;
+  font-weight: 900;
+  border-radius: 10px;
+}
