@@ -1,8 +1,14 @@
+/* GENERAL REST */
+
+body {
+  margin: 0;
+}
+
 /* HEADER STYLES */
 .section-header {
   background-color: #1f2937;
   color: #e5e7eb;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 
 .section-nav {
@@ -24,6 +30,7 @@
   color: #e5e7eb;
   font-size: 18px;
   text-decoration: none;
+  margin: 0 20px;
 }
 
 .header-container {
@@ -34,11 +41,12 @@
 .header-title {
   max-width: 400px;
   font-size: 48px;
+  font-weight: 700;
 }
 
 .header-img {
   background-color: #777;
-  width: 400px;
+  width: 600px;
 }
 
 .header-text {
@@ -48,6 +56,7 @@
 .header-placeholder {
   text-align: center;
   justify-content: center;
+  padding: 100px 0;
 }
 
 .header-btn {
@@ -59,9 +68,15 @@
 }
 
 /* HERO STYLES */
+
+.section-hero {
+  padding: 45px 0;
+}
+
 .hero-text {
   text-align: center;
   font-size: 30px;
+  padding-bottom: 20px;
 }
 
 .section-hero-container {
@@ -129,6 +144,7 @@
 .h3-text {
   padding-bottom: 0;
   margin-bottom: 0;
+  text-align: left;
 }
 
 .cta-text {
@@ -144,4 +160,19 @@
   background-color: #3882f6;
   color: #e5e7eb;
   border: 2px solid #e5e7eb;
+}
+
+/* FOOTER STYLES */
+
+.section-footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  padding-top: 25px;
+  height: 75px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
 }
