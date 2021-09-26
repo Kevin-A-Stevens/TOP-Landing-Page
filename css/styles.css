@@ -77,11 +77,32 @@
   border-radius: 20px;
 }
 
-.items {
-}
-
 .text {
   width: 140px;
   text-align: center;
   padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+/* QUOTE STYLES */
+
+.section-quote {
+  background-color: #e5e7eb;
+  padding: 100px 0;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 100;
+  width: 750px;
+  margin: 0 auto;
+}
+
+.caption {
+  font-size: 2rem;
+  font-weight: 700;
+  width: 500px;
+  margin: 0 auto;
+  padding-left: 600px;
 }
